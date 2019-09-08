@@ -1,0 +1,15 @@
+# MailboxGroupMembershipAdd allows multiple comma-separated values.
+Name;Value
+DomainController;DC1.local
+LogPath;C:\Log
+ScriptDataFile;C:\input\Input_NewMB.txt
+ScriptWorkFile;C:\input\Work_NewMB.txt
+AuditDataFile;C:\config\O365UserAudit.csv
+LicensSkuIDsFile;C:\config\AccountSkuIDs.csv
+DisabledServicesFile;C:\config\O365DisabledServices.csv
+MailboxGroupMembershipAdd;
+AADConnectHost;Dirsync01.domain.internal
+ExchangeServerURL;http://Exchange01.domain.internal/PowerShell
+ExchangeOnlineURL;https://outlook.office365.com/powershell-liveid/
+AttributeUserType;employeetype
+Office365FallBackUsageLocation;US
