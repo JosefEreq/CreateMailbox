@@ -2,8 +2,8 @@
 
 <#
 
-This script creates remote mailbox on Exchange server and cloud mailbox in Exchange Online.
-It also sets audit and litigation properties on the cloud mailbox.
+This script creates mailbox, sets properties(Customizable license services, litigation, audit) and more in Exchange hybrid environments.
+Controlled by the 4 CSV config files(License, Audit, SKUIds and settings).
 
 
 Author 
