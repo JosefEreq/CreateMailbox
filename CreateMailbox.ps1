@@ -27,16 +27,10 @@ $Config = import-csv $ConfigFile -Delimiter ";" -Encoding utf8
 
 
 # - Set the credentials for connecting to Exchange, AADConnect server and AzureAD.
-$EXAcc = "Exchange admin service account"
-$EXPW = "Exchange service account password”
-$AADAcc = "AzureAD and dirsync admin service account"
-$AADPW = "AzureAD/Dirsync account password"
 
-$EXSECPW = ConvertTo-SecureString $EXPW -AsPlainText -Force
-$EXcred = New-Object System.Management.Automation.PSCredential ($EXAcc, $EXSECPW)
+$EXcred = Import-CliXml -Path "C:\script\cred\EXO_upn+hash.cred"
 
-$AADSECPW = ConvertTo-SecureString $AADPW -AsPlainText -Force
-$AADcred = New-Object System.Management.Automation.PSCredential ($AADAcc, $AADSECPW)
+$AADcred = Import-CliXml -Path "C:\script\cred\AAD_upn+hash.cred"
 
 # - Connect to the AzureAD with the service account credentials.
 Connect-MsolService -Credential $AADCred
