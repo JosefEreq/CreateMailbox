@@ -2,7 +2,7 @@
 
 <#
 
-This script creates mailbox, sets properties(Customizable license services, litigation, audit) and more in Exchange hybrid environments.
+This script creates mailbox, sets license/services, audit and more in Exchange hybrid environments.
 Controlled by the 4 CSV config files(License, Audit, SKUIds and settings).
 
 
