@@ -28,9 +28,9 @@ $Config = import-csv $ConfigFile -Delimiter ";" -Encoding utf8
 
 # - Set the credentials for connecting to Exchange, AADConnect server and AzureAD.
 
-$EXcred = Import-CliXml -Path "C:\script\cred\EXO_upn+hash.cred"
+$EXcred = Import-CliXml -Path "C:\script\cred\ServiceAccount_EXO.cred"
 
-$AADcred = Import-CliXml -Path "C:\script\cred\AAD_upn+hash.cred"
+$AADcred = Import-CliXml -Path "C:\script\cred\ServiceAccount_AAD.cred"
 
 # - Connect to the AzureAD with the service account credentials.
 Connect-MsolService -Credential $AADCred
