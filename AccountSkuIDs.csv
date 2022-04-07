@@ -1,5 +1,5 @@
 License;UserType;Order
-cramo:ENTERPRISEPACK;Employee;1
-cramo:EMS;Employee;1
-cramo:STANDARDPACK;Consultant;1
-cramo:EMS;Consultant;1
+Licens1;UserType1;1
+Licens2:EMS;UserType1;2
+Licens1:EMS;UserType2;1
+
