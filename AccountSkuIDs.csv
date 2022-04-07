@@ -1,5 +1,5 @@
 License;UserType;Order
-[SKUID1];[UserType1];1
-[SKUID2];[UserType1];2
-[SKUID1];[UserType2];1
+[SKUId1];[UserType1];1
+[SKUId2];[UserType1];2
+[SKUId1];[UserType2];1
 
