@@ -1,5 +1,5 @@
 #Create one row per service to disable
 License;DisabledService
-[SKUId];[ServiceName]
-[SKUId];[ServiceName]
-[SKUId];[ServiceName]
+[SKUId1];[ServiceName]
+[SKUId1];[ServiceName]
+[SKUId2];[ServiceName]
