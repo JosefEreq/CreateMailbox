@@ -1,5 +1,5 @@
 # CreateMailbox
-### Automate mailbox provisioning, set license/services, audit and more in M365 hybrid environments.
+### Automate mailbox provisioning, set license/services and audit in M365 hybrid environments.
 ### Customizable from CSV files.
 
 #### All conditions and settings are specified in the different CSV config files.
