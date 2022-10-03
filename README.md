@@ -1,4 +1,4 @@
-# CreateMailbox
+## Create mailbox
 ### Automate mailbox provisioning, set license/services and audit properties in M365 hybrid environments.
 ### Customizable from CSV files.
 
